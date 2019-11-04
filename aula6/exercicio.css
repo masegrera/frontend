@@ -8,7 +8,7 @@
     width: 100%;
     height: 800px;
     background-color: aquamarine;
-    background-image: url(lezalezbunner.png);
+    background-image: url(1CF7866.jpg);
     background-position: center top;
     background-size: cover;
 }
@@ -22,7 +22,6 @@
 .menu{
     height: 80px;
     width: 100%;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,19 +29,27 @@
 
 .menul{
     font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;  
+    font-size:12px;  
+    text-decoration: none;
 }
 
 .menul a{margin-right: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .menur{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px; 
+}
 
+.menur a{
+    text-decoration: none;
+    color: black;
 }
 
 .bloco{
     width: 100%;
-    background-color: blue;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -51,6 +58,25 @@
 .boxitem{
     width: 230px;
     height: 300px;
-    background-color: black;
     margin-bottom: 20px;
+    position: relative;
 }
+
+.productinfo{
+    width: 230px;
+    height: 60PX;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 9px;
+}
+
+.button{
+    color: black;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+
+    
+}
+
