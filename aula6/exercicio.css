@@ -9,7 +9,7 @@
     height: 800px;
     background-color: aquamarine;
     background-image: url(1CF7866.jpg);
-    background-position: center top;
+    background-position: center;
     background-size: cover;
 }
 
@@ -79,4 +79,39 @@
 
     
 }
+
+.buttonreorder{
+    display: none;
+}
+
+@media (max-width: 480px){
+    .bunner{
+        width: 100%;
+        height: 400px;
+        background-position: top;
+    }
+    .container{
+        width: 90%;
+    }
+    .menu{
+        width: 100%;
+    }
+    .bloco{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttonreorder{
+        display: block;
+    }
+
+    .menul{
+        display: none;
+    }
+
+    .menur{
+        display: none;
+    }
+}
+
 
