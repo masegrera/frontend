@@ -37,6 +37,20 @@ for (let i=0; i <=200; i++){
 
     // Insere o option criado no select
     select.appendChild(option);
+}
+
+
+    const button= document.getElementById("button");
+
+    button.addEventListener("click", function(){
+        const value = select.value;
+
+        if(2019- value >= 18){
+            const video = document.getElementById("video");
+            video.innerHTML='<iframe width="100%" height="100%" src="https://www.youtube.com/embed/hCM4w3Iybd4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+        }
+    })
    
 
-}
+
